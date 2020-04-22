@@ -10,7 +10,7 @@ downLoad('https://github.com/VICTORYGS/Web-Static-Server.git').then(d=>{
 ```
 ## API
 
-### downLoad(repositoryPath,localPath)
+### downLoad(repositoryPath,[localPath])
 
 ##### repositoryPath
 
