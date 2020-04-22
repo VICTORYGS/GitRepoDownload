@@ -1,3 +1,6 @@
+# GitRepoDownload
+> Please install gitbash before using
+
 ## Usage
 
 ```js
