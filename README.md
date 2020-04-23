@@ -4,7 +4,7 @@
 ## Usage
 ### npm i gitrepodownload
 ```js
-const downLoad=require('./download')
+const downLoad=require('gitrepodownload')
 downLoad('https://github.com/VICTORYGS/Web-Static-Server.git').then(d=>{
   console.log(d)
 }).catch(e=>{
