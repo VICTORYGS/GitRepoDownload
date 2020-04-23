@@ -2,7 +2,7 @@
 > Please install gitbash before using
 
 ## Usage
-
+### npm i gitrepodownload
 ```js
 const downLoad=require('./download')
 downLoad('https://github.com/VICTORYGS/Web-Static-Server.git').then(d=>{
