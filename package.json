@@ -1,0 +1,24 @@
+{
+  "name": "gitrepodownload",
+  "version": "1.0.0",
+  "description": "Git Repositories download;",
+  "main": "download.js",
+  "scripts": {
+    "test": "node ./example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VICTORYGS/GitRepoDownload.git"
+  },
+  "author": "",
+  "keywords": [
+    "git",
+    "repository",
+    "download"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VICTORYGS/GitRepoDownload/issues"
+  },
+  "homepage": "https://github.com/VICTORYGS/GitRepoDownload#readme"
+}

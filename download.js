@@ -3,7 +3,7 @@ const fs=require('fs')
 const judgeEnv=(pathKey)=>{
   let pathList=process.env.Path.split(';')
   for(let v of pathList){
-    if(fs.readdirSync(v).some(v=>RegExp(`^${pathKey}`).test(v))){
+    if(fs.existsSync(v)&&fs.readdirSync(v).some(v=>RegExp(`^${pathKey}`).test(v))){
       return true
     }
   }
